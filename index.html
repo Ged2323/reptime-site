@@ -3,229 +3,145 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Reptime — Workout Timer & Tracker</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Reptime — Workout Timer for iPhone &amp; Apple Watch</title>
+  <meta name="description" content="Reptime is the interval and workout timer that talks you through every set. Voice cues over your music, iPhone + Apple Watch sync, streaks, Apple Health and 9 languages." />
+  <meta property="og:title" content="Reptime — Workout Timer for iPhone &amp; Apple Watch" />
+  <meta property="og:description" content="Voice cues over your music, iPhone + Apple Watch sync, streaks and Apple Health. No account needed." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="landing.css" />
 </head>
 <body>
 
-<nav>
+<header class="top">
   <a class="brand" href="index.html">Reptime</a>
-  <a href="#getting-started">Getting Started</a>
-  <a href="#features">Features</a>
-  <a href="#howto">How To</a>
-  <a href="#subscription">Subscription</a>
-  <a href="#faq">FAQ</a>
-  <a href="privacy.html">Privacy</a>
-  <a href="terms.html">Terms</a>
-</nav>
+  <nav>
+    <a href="#features">Features</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#faq">FAQ</a>
+    <a href="guide.html">Guide</a>
+  </nav>
+</header>
 
-<div class="container">
-
-  <div class="hero">
-    <h1>Reptime</h1>
-    <p>Workout Timer &amp; Tracker for iPhone and Apple Watch</p>
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <h1>The workout timer that talks you through every set.</h1>
+      <p class="lead">Build your routines, press play, and hear <em>“Halfway”</em> and a 5‑4‑3‑2‑1 countdown over your music. On iPhone and Apple Watch.</p>
+      <a class="cta" href="https://apps.apple.com/app/id6752686793">Download on the App Store</a>
+      <p class="fine">iPhone · Apple Watch · No account needed</p>
+    </div>
+    <video id="adv" class="vid" src="media/ad_en.mp4" poster="media/poster.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Short Reptime preview: building routines, spoken cues, streaks and Apple Watch"></video>
   </div>
+</section>
 
-  <!-- GETTING STARTED -->
-  <h1 id="getting-started">Getting Started</h1>
-  <p>This guide takes you from install to your first workout — with reliable halfway and 5-second cues — on iPhone and Apple Watch.</p>
-
-  <div class="card">
-    <h2>1. Requirements</h2>
-    <ul>
-      <li>iPhone running iOS 17 or later</li>
-      <li>Apple Watch running watchOS 10 or later (optional but recommended)</li>
-      <li>Health app installed (built-in)</li>
-    </ul>
+<section class="strip">
+  <div class="wrap">
+    <span>⌚ Apple Watch</span><span>❤️ Saves to Apple Health</span><span>🎵 Plays over Spotify &amp; Apple Music</span><span>🌍 9 languages</span><span>🔒 No tracking</span>
   </div>
+</section>
 
-  <div class="card">
-    <h2>2. Install &amp; Pair</h2>
-    <ul>
-      <li>Install the iPhone app from the App Store.</li>
-      <li>If you have an Apple Watch, the watch app installs automatically.</li>
-      <li>If not: open the Watch app on iPhone → My Watch → scroll to Reptime → Install.</li>
-      <li>Ensure Settings → Bluetooth is on.</li>
-    </ul>
+<section class="wrap shots-wrap" aria-label="Screenshots">
+  <div class="shots">
+    <img src="media/screens/1.jpg" alt="Routines list with a 16 day streak banner" loading="lazy" width="300" height="652" />
+    <img src="media/screens/2.jpg" alt="A workout running with the halfway banner" loading="lazy" width="300" height="652" />
+    <img src="media/screens/3.jpg" alt="Monthly streak calendar" loading="lazy" width="300" height="652" />
+    <img src="media/screens/4.jpg" alt="Help screen with a legend of every icon" loading="lazy" width="300" height="652" />
   </div>
+</section>
 
-  <div class="card">
-    <h2>3. First Run Permissions</h2>
-    <ul>
-      <li><strong>Notifications</strong> → tap Allow (needed for halfway + 5-sec alerts in background).</li>
-      <li><strong>Health</strong> → tap Allow for Workouts (read/write), so sessions can be stored.</li>
-    </ul>
-    <p style="margin-top:8px;color:#8e8e93;font-size:0.9rem;">Change these later in iOS Settings → Notifications and Health → Data Access &amp; Devices.</p>
+<section id="features" class="wrap">
+  <h2>Everything you need to train, nothing you don’t</h2>
+  <div class="grid">
+    <article><h3>🎯 Build any workout</h3><p>Timed segments for HIIT, Tabata, circuits, planks and stretching. Reps &amp; weight for strength sets. Rounds, rests and auto‑start to flow hands‑free.</p></article>
+    <article><h3>🔊 Voice cues, your music</h3><p>Halfway and last‑5‑seconds cues, spoken over Spotify or Apple Music, even with the screen off. Separate voice volume and optional music ducking.</p></article>
+    <article><h3>⌚ iPhone + Watch in sync</h3><p>Start on either device and the other follows. Pause, resume and skip from your wrist, with haptics on the Watch and voice on the phone.</p></article>
+    <article><h3>🔥 Streaks &amp; monthly calendar</h3><p>Current streak, all‑time best and % of days active. Flick back through any month to see every day you trained, plus distance, heart rate and calories.</p></article>
+    <article><h3>🎬 Demo videos</h3><p>Attach your own form videos from Photos or Files so you always remember how an exercise should look.</p></article>
+    <article><h3>🔒 Private by design</h3><p>No account, no ads, no tracking. Routines live on your device and workouts save to Apple Health only if you allow it.</p></article>
   </div>
+</section>
 
-  <div class="card">
-    <h2>4. Create Your First Routine</h2>
-    <div class="step"><span class="step-num">1</span><div class="step-content">Open the app → Routines → tap <strong>+ New</strong>.</div></div>
-    <div class="step"><span class="step-num">2</span><div class="step-content">Add segments: <strong>Timed</strong> (e.g., Plank 60s, 3 rounds) or <strong>Reps &amp; Weight</strong> (e.g., Bench Press 3×8 @ 40 kg).</div></div>
-    <div class="step"><span class="step-num">3</span><div class="step-content">Give it a name → Save.</div></div>
+<section class="alt">
+  <div class="wrap">
+    <h2>How it works</h2>
+    <ol class="steps">
+      <li><strong>Build a routine</strong><span>Add timed or reps &amp; weight segments, name it, save.</span></li>
+      <li><strong>Press play</strong><span>On your iPhone or Apple Watch — the other device mirrors it.</span></li>
+      <li><strong>Train hands‑free</strong><span>Hear every cue, then log the workout to Apple Health.</span></li>
+    </ol>
   </div>
+</section>
 
-  <div class="card">
-    <h2>5. Voice Cues &amp; Background Alerts</h2>
-    <p>Go to Routines → ⚙️ Settings → Voice Cues:</p>
-    <ul>
-      <li>Halfway + last 5 seconds: <strong>ON</strong></li>
-      <li>Voice volume: adjust to taste</li>
-      <li>Duck music during voice cues: ON to dip music briefly; OFF to keep level unchanged</li>
-    </ul>
-    <p>Tap <strong>Test voice</strong> to preview at your current volume.</p>
+<section id="tutorial" class="wrap tutorial">
+  <h2>See how it works</h2>
+  <p class="fine">A 75‑second walkthrough. The voice is English; pick a language for the subtitles.</p>
+  <label class="langpick">Subtitles
+    <select id="lang" aria-label="Subtitle language">
+      <option value="en">English</option><option value="de">Deutsch</option><option value="fr">Français</option>
+      <option value="es">Español</option><option value="pt">Português</option><option value="it">Italiano</option>
+      <option value="ja">日本語</option><option value="ko">한국어</option><option value="nl">Nederlands</option>
+    </select>
+  </label>
+  <video id="tutorialv" class="vid" src="media/tutorial_en.mp4" poster="media/poster_tutorial.jpg" controls playsinline preload="none" aria-label="Reptime tutorial video"></video>
+</section>
+
+<section class="wrap split">
+  <div>
+    <h2>Start on your phone, control from your wrist</h2>
+    <p>Your Apple Watch jumps straight to the live workout. Pause, skip, or stop without reaching for your phone, and watch your heart rate and calories as you go.</p>
+    <video class="vid watch" src="media/watch.mp4" poster="media/poster_watch.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Reptime running on Apple Watch"></video>
   </div>
-
-  <div class="card">
-    <h2>6. Start a Workout (iPhone)</h2>
-    <p>In Routines, tap the <strong>▶︎ Play</strong> button on a routine. The Run screen shows the current segment, countdown, and round. Controls: Start / Pause / Next.</p>
+  <div>
+    <h2>Don’t break the chain</h2>
+    <p>Reptime tracks your streak from Apple Health. See your best run, how consistent you’ve been this month, and a weekly chart of days active.</p>
   </div>
+</section>
 
-  <div class="card">
-    <h2>7. Start a Workout (Apple Watch)</h2>
-    <p>Open the app on your Watch and start the routine. The Watch mirrors progress and sends milestones to your iPhone. Gentle haptics on Watch; iPhone handles voice and banners.</p>
+<section id="pricing" class="alt">
+  <div class="wrap">
+    <h2>Simple pricing, free trial included</h2>
+    <div class="grid prices">
+      <article><h3>Weekly</h3><p class="price">$0.99</p><p>per week · 3‑day free trial</p></article>
+      <article><h3>Monthly</h3><p class="price">$2.99</p><p>per month · 1‑week free trial</p></article>
+      <article><h3>6‑Month</h3><p class="price">$14.99</p><p>per 6 months · 1‑week free trial</p></article>
+      <article class="best"><h3>Yearly</h3><p class="price">$39.99</p><p>per year · 1‑week free trial</p></article>
+    </div>
+    <p class="fine">Subscriptions renew automatically unless cancelled at least 24 hours before the end of the current period. Manage or cancel anytime in your App Store account settings.</p>
   </div>
+</section>
 
-  <div class="card">
-    <h2>8. Managing Health Workouts</h2>
-    <p>Settings → Health Workouts shows workouts created by this app. Reload, Delete individual, or Delete All. This does not remove your Routines — only Health logs.</p>
-  </div>
-
-  <div class="card">
-    <h2>9. Troubleshooting</h2>
-    <h3>No voice, but notifications appear</h3>
-    <p>Ensure Voice Cues are ON, raise volume slider, check iPhone is not on Silent, and confirm Bluetooth headphones are the active output.</p>
-    <h3>Halfway / 5-second alerts missed in background</h3>
-    <p>Ensure Notifications are allowed. Open the app at least once after install. If starting from Watch, keep Bluetooth on.</p>
-    <h3>Watch app didn't install</h3>
-    <p>Open Watch app on iPhone → My Watch → scroll to Reptime → Install. Enable Automatic App Install.</p>
-  </div>
-
-  <!-- FEATURES -->
-  <h1 id="features" style="margin-top:48px;">Features</h1>
-
-  <div class="card">
-    <h2>🎯 Custom Routines</h2>
-    <p>Build unlimited routines with timed or reps &amp; weight segments. Save defaults, reorder, duplicate, and edit on the fly.</p>
-  </div>
-
-  <div class="card">
-    <h2>⏱ Smart Timing</h2>
-    <p>Automatic halfway and last 5 seconds cues. Optional auto-start moves you through segments without tapping. Clear countdown timers with round tracking (e.g., "Round 2 of 3").</p>
-  </div>
-
-  <div class="card">
-    <h2>🔊 Voice Cues + Music Friendly</h2>
-    <p>Spoken prompts mix with Spotify/Apple Music. Adjustable voice volume independent of music. Choose whether music ducks during cues or stays untouched. Background-ready: cues work with the screen off.</p>
-  </div>
-
-  <div class="card">
-    <h2>⌚ Seamless iPhone + Watch</h2>
-    <p>Start on iPhone or Watch — progress syncs automatically. Haptics on Watch, banners + voice on iPhone. Reliable fallback sync if the Watch is briefly unreachable.</p>
-  </div>
-
-  <div class="card">
-    <h2>❤️ Health Integration</h2>
-    <p>Save completed workouts directly to Apple Health. Manage logged workouts from inside the app. Only Workouts access is requested.</p>
-  </div>
-
-  <div class="card">
-    <h2>🔒 Privacy First</h2>
-    <p>All routines and stats stored locally on your device. No accounts, no tracking, no external servers. Full control over HealthKit permissions.</p>
-  </div>
-
-  <!-- HOW TO -->
-  <h1 id="howto" style="margin-top:48px;">How to Use</h1>
-
-  <div class="card">
-    <h2>Create a Routine</h2>
-    <p>Tap + New in the Routines list. Add segments — Timed or Reps &amp; Weight. Name it and Save. The app remembers your last defaults to speed up adding similar exercises.</p>
-  </div>
-
-  <div class="card">
-    <h2>Adjust Settings</h2>
-    <p>Go to ⚙️ Settings: toggle Voice Cues ON, set Voice Volume, choose Duck Music, and enable Auto-Start Timed Exercises. Tap Test Voice to hear a sample.</p>
-  </div>
-
-  <div class="card">
-    <h2>During a Workout</h2>
-    <p>Timer View shows remaining time, round number, and current exercise. Controls: Start/Pause, Next Segment, Done. You'll hear "Halfway" at the midpoint and 5, 4, 3, 2, 1 at the end of each timed segment — over your music.</p>
-  </div>
-
-  <div class="card">
-    <h2>iPhone + Watch Sync</h2>
-    <p>Start on either device — progress syncs via Bluetooth. If the Watch briefly loses connection, the iPhone queues updates and resends when available.</p>
-  </div>
-
-  <!-- SUBSCRIPTION -->
-  <h1 id="subscription" style="margin-top:48px;">Subscription</h1>
-
-  <div class="card">
-    <table>
-      <thead>
-        <tr><th>Plan</th><th>Price</th><th>Free Trial</th><th>Renewal</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>Weekly</td><td>$0.99/week</td><td>3 days</td><td>Weekly</td></tr>
-        <tr><td>Monthly</td><td>$2.99/month</td><td>1 week</td><td>Monthly</td></tr>
-        <tr><td>6-Month</td><td>$14.99/6 months</td><td>1 week</td><td>Every 6 months</td></tr>
-        <tr><td>Yearly</td><td>$39.99/year</td><td>1 week</td><td>Yearly</td></tr>
-      </tbody>
-    </table>
-    <p>Subscriptions automatically renew unless cancelled at least 24 hours before the end of the current period. Manage or cancel anytime via your account settings in the App Store.</p>
-    <p>After completing your purchase, please wait for the "You're all set" confirmation. Validation may take 10–20 seconds.</p>
-    <p>By subscribing you agree to our <a href="terms.html">Terms of Use</a> and <a href="privacy.html">Privacy Policy</a>.</p>
-  </div>
-
-  <!-- FAQ -->
-  <h1 id="faq" style="margin-top:48px;">FAQ</h1>
-
-  <div class="card">
-    <h2>Setup</h2>
-    <h3>Do I need an Apple Watch?</h3>
-    <p>No. The app works fully on iPhone. The Watch app is optional and adds haptics + wrist controls.</p>
-    <h3>How do I install the Watch app?</h3>
-    <p>It auto-installs with the iPhone app if "Automatic App Install" is enabled. Otherwise: Watch app on iPhone → scroll to Reptime → Install.</p>
-  </div>
-
-  <div class="card">
-    <h2>Routines &amp; Workouts</h2>
-    <h3>Can I create multiple routines?</h3>
-    <p>Yes, unlimited routines with any mix of timed and reps/weight exercises.</p>
-    <h3>What's the difference between Timed and Reps &amp; Weight?</h3>
-    <p>Timed counts down seconds/minutes. Reps &amp; Weight is for traditional sets (e.g., 3×10 @ 40 kg).</p>
-    <h3>Can I reorder exercises later?</h3>
-    <p>Yes. Open a routine, drag to reorder, or tap to edit any exercise.</p>
-  </div>
-
-  <div class="card">
-    <h2>Voice Cues &amp; Music</h2>
-    <h3>Will voice cues pause my music?</h3>
-    <p>No. Cues mix with Spotify/Apple Music. You choose whether music briefly ducks or stays unchanged.</p>
-    <h3>Do voice cues work in the background?</h3>
-    <p>Yes. With Notifications enabled, cues play even if the app is backgrounded or the screen is off.</p>
-  </div>
-
-  <div class="card">
-    <h2>Privacy &amp; Data</h2>
-    <h3>What data is saved to Health?</h3>
-    <p>Only workouts (if you grant permission). No location, steps, or heart rate are accessed.</p>
-    <h3>Does the app track me or require an account?</h3>
-    <p>No. All routines and stats are stored locally. No accounts, servers, or tracking.</p>
-    <h3>Can I delete workouts the app logged?</h3>
-    <p>Yes. Settings → Health Workouts → delete individual or all entries.</p>
-  </div>
-
-</div>
+<section id="faq" class="wrap">
+  <h2>Questions</h2>
+  <details><summary>Do I need an Apple Watch?</summary><p>No. Reptime works fully on iPhone. The Watch app is optional and installs automatically if you have one.</p></details>
+  <details><summary>Does it work with my music?</summary><p>Yes. Voice cues mix over Spotify and Apple Music, and you can choose whether music dips during cues.</p></details>
+  <details><summary>Is my data private?</summary><p>Yes. There are no accounts and no tracking. Routines stay on your device and Health access is limited to workouts.</p></details>
+  <details><summary>Which versions are supported?</summary><p>iPhone running iOS 26 or later; Apple Watch running watchOS 26 or later.</p></details>
+  <details><summary>Which languages does Reptime speak?</summary><p>The app is available in English, Deutsch, Français, Español, Português, Italiano, 日本語, 한국어 and Nederlands. It follows your iPhone’s language, including the spoken cues.</p></details>
+  <details><summary>I’m new — where do I start?</summary><p>The first time you open Reptime a short welcome tour explains the basics. Tap the question mark on the Routines screen any time for a guide, a legend of every icon and the tour again.</p></details>
+</section>
 
 <footer>
-  <p>
-    <a href="privacy.html">Privacy Policy</a> &nbsp;·&nbsp;
-    <a href="terms.html">Terms of Use</a> &nbsp;·&nbsp;
-    Contact: <a href="mailto:gitgambit@gmail.com">gitgambit@gmail.com</a>
-  </p>
-  <p style="margin-top:8px;">© 2025 Gerard Grundy. All rights reserved.</p>
+  <div class="wrap">
+    <a href="guide.html">Guide</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a>
+    <p class="fine">Support: <a href="mailto:gitgambit@gmail.com">gitgambit@gmail.com</a> · © Reptime</p>
+  </div>
 </footer>
+
+<script>
+(function () {
+  var langs = ['en', 'de', 'fr', 'es', 'pt', 'it', 'ja', 'ko', 'nl'];
+  var pick = ((navigator.language || 'en') + '').slice(0, 2);
+  if (langs.indexOf(pick) < 0) pick = 'en';
+  var sel = document.getElementById('lang'), tut = document.getElementById('tutorialv'), ad = document.getElementById('adv');
+  function setLang(l) {
+    tut.src = 'media/tutorial_' + l + '.mp4';
+    if (!ad.dataset.lang || ad.dataset.lang !== l) { ad.src = 'media/ad_' + l + '.mp4'; ad.dataset.lang = l; ad.play().catch(function () {}); }
+  }
+  sel.value = pick;
+  if (pick !== 'en') setLang(pick);
+  sel.addEventListener('change', function () { setLang(sel.value); });
+})();
+</script>
 
 </body>
 </html>
